@@ -11,18 +11,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class ScriptBase {
-    WebDriver driver;
+   public WebDriver driver;
 
     public void SafariWithoutDriver(){
         WebDriverManager.safaridriver().setup();
         driver=new SafariDriver();
         driver.get("http://automationpractice.com/index.php");
-        WebElement element=driver.findElement(By.xpath("//*[@id='header']/div[2]/div/div/nav/div[1]/a"));
-        // element.isDisplayed();
-        System.out.println(element.isDisplayed());
-        //System.out.println(element.getText());
-        element.click();
-        driver.findElement(By.id("ember650")).sendKeys("test@gmail.com");
+
 
     }
 
@@ -90,10 +85,10 @@ public class ScriptBase {
 
     }
 
-    @AfterTest
+   /* @AfterTest
     public void afterTest(){
         driver.quit();
-    }
+    }*/
 
 
 }
