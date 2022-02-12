@@ -9,23 +9,25 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MyStoreController {
 
-
-    @FindBy(xpath = "//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+    @FindBy(xpath ="//a[@class='login']")
     WebElement signInButton;
     @FindBy(id = "email")
     WebElement inputEmail;
+
+    @FindBy(name = "email")
+    WebElement inputEmailByName;
+
 
     public MyStoreController(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
 
-    public void safariBrowserFunctionalCode() throws InterruptedException {
-        Thread.sleep(1000);
+    public void browserFunctionalCode(WebDriver driver,String inputEmailOrPass) {
         signInButton.isDisplayed();
-        Thread.sleep(1000);
         signInButton.click();
-        Thread.sleep(1000);
-        inputEmail.sendKeys("test@gmail.com");
+        //inputEmail.sendKeys("test@gmail.com");
+        driver.findElement(By.xpath("//*[@id="+inputEmailOrPass+"]")).sendKeys();
+
 
     }
 
