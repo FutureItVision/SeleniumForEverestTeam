@@ -11,35 +11,19 @@ public class LoginTest extends ScriptBase {
     @Test
     public void verifyLoginTestWithInvalidPassword() {
         myStoreController= new MyStoreController(driver);
-        myStoreController.vaildLoginCode(driver,"email");
-        myStoreController.vaildLoginCode(driver,"passwd");
+        myStoreController.vaildLoginCode("test@gmail.com","1222333");
         myStoreController.invalidPasswordErrorValidation();
 
 
     }
     @Test
-    public void verifyLoginTestWithInvalidEmail() {
+    public void verifyValidLoginTest() {
         myStoreController= new MyStoreController(driver);
-        myStoreController.vaildLoginCode(driver,"email");
-        myStoreController.vaildLoginCode(driver,"passwd");
-        myStoreController.invalidPasswordErrorValidation();
+        myStoreController.vaildLoginCode("zaman_test@gmail.com","Admin123");
+        myStoreController.validLoginValidation();
+        myStoreController.signOutAccount();
 
 
     }
-    @Test
-    public void verifyLoginTestWithValidPassword() {
-        myStoreController= new MyStoreController(driver);
-        myStoreController.vaildLoginCode(driver,"email");
-        myStoreController.vaildLoginCode(driver,"passwd");
 
-
-    }
-    @Test
-    public void verifyLoginTestWithValidemail() {
-        myStoreController= new MyStoreController(driver);
-        myStoreController.vaildLoginCode(driver,"email");
-        myStoreController.vaildLoginCode(driver,"passwd");
-
-
-    }
 }

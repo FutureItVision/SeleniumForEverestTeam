@@ -12,7 +12,6 @@ public class ScriptBase {
     @BeforeTest
     public void ChromeWithoutDriver(){
         WebDriverManager.chromedriver().setup();
-        WebDriver driver;
         driver=new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
 
@@ -20,7 +19,7 @@ public class ScriptBase {
 
     @AfterTest
     public void afterTest(){
-        driver.quit();
+        //driver.quit();
     }
 
 }

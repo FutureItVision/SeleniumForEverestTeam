@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/nadiruzzamanmuhammad/Documents/SeleniumForEverestTeam">
+        <classes>
+            <!--<class name="loginTest.LoginTest">
+                <methods>
+                    <include name="verifyValidLoginTest"/>
+                    <include name="verifyLoginTestWithInvalidPassword"/>
+                </methods>
+            </class>-->
+            <class name="account.AccountForm">
+                <methods>
+                    <include name="verifyLoginTestWithInvalidPassword"/>
+                    <include name="verifyCreateEmailEccepted"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
