@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="account.AccountForm" hash-for-method="verifyCreateEmailEccepted">verifyCreateEmailEccepted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="account.AccountForm" hash-for-method="verifyCreateEmailEccepted">verifyCreateEmailEccepted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="account.AccountForm" hash-for-method="verifyLoginTestWithInvalidPassword">verifyLoginTestWithInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,6 +147,20 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyCreateEmailEccepted">
+                  </a> <!-- verifyCreateEmailEccepted -->
+                  <span class="method-name">verifyCreateEmailEccepted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginTestWithInvalidPassword">
+                  </a> <!-- verifyLoginTestWithInvalidPassword -->
+                  <span class="method-name">verifyLoginTestWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifyLoginTestWithInvalidPassword">
                   </a> <!-- verifyLoginTestWithInvalidPassword -->
                   <span class="method-name">verifyLoginTestWithInvalidPassword</span>
@@ -154,7 +178,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;All Test Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;/Users/nadiruzzamanmuhammad/Documents/SeleniumForEverestTeam&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;controller.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;TestWith firefox browser&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;account.AccountForm&quot;&gt;
         &lt;methods&gt;
@@ -163,7 +191,18 @@
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- account.AccountForm --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- /Users/nadiruzzamanmuhammad/Documents/SeleniumForEverestTeam --&gt;
+  &lt;/test&gt; &lt;!-- TestWith firefox browser --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Test with Chrome Browser&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;account.AccountForm&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyLoginTestWithInvalidPassword&quot;/&gt;
+          &lt;include name=&quot;verifyCreateEmailEccepted&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- account.AccountForm --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test with Chrome Browser --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,7 +214,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">/Users/nadiruzzamanmuhammad/Documents/SeleniumForEverestTeam (1 class)</span>
+                <span class="test-name">TestWith firefox browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test with Chrome Browser (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -201,20 +243,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLoginTestWithInvalidPassword')
 data.setCell(0, 2, 'account.AccountForm')
-data.setCell(0, 3, 2190);
+data.setCell(0, 3, 4397);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyCreateEmailEccepted')
+data.setCell(1, 1, 'verifyLoginTestWithInvalidPassword')
 data.setCell(1, 2, 'account.AccountForm')
-data.setCell(1, 3, 102);
+data.setCell(1, 3, 2578);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCreateEmailEccepted')
+data.setCell(2, 2, 'account.AccountForm')
+data.setCell(2, 3, 124);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCreateEmailEccepted')
+data.setCell(3, 2, 'account.AccountForm')
+data.setCell(3, 3, 79);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -242,20 +292,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">account.AccountForm</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">ChromeWithoutDriver</span>
+                <span class="method-name">beforeTest(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginTestWithInvalidPassword</span>
-                <span class="method-start">5637 ms</span>
+                <span class="method-start">7783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCreateEmailEccepted</span>
-                <span class="method-start">7833 ms</span>
+                <span class="method-start">12414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">7937 ms</span>
+                <span class="method-start">12651 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome)</span>
+                <span class="method-start">13367 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginTestWithInvalidPassword</span>
+                <span class="method-start">17617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateEmailEccepted</span>
+                <span class="method-start">20580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">21026 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

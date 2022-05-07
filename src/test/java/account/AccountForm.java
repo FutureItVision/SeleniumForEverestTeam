@@ -13,8 +13,6 @@ Account account;
         account= new Account(driver);
         account.vaildLoginCode("test@gmail.com","1222333");
         account.invalidPasswordErrorValidation();
-
-
     }
     @Test
     public void verifyCreateEmailEccepted() {

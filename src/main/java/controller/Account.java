@@ -1,5 +1,7 @@
 package controller;
 
+import base.ScriptBase;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,8 +28,7 @@ public class Account {
     @FindBy(xpath = "//a[@title='Log me out']")
     WebElement signOut;
 
-
-
+    public static final Logger log=Logger.getLogger(ScriptBase.class.getName());
     public Account(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
@@ -36,6 +37,7 @@ public class Account {
     public void createAnAccount(){
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         createEmail.sendKeys("test"+timestamp.toString().replace(" ","S").replace(":","C").replace(".","D")+"@gmail.com");
+       log.info("Create Account work properly: "+ createEmail);
     }
 
     public void time(){
@@ -43,14 +45,19 @@ public class Account {
     }
     public void vaildLoginCode(String inputEmail, String inputPass) {
         signInButton.click();
+        log.info("signInButton Click properly: "+signInButton);
         inputEmailByName.sendKeys(inputEmail);
+        log.info("inputEmail properly: "+inputEmailByName);
         inputPassword.sendKeys(inputPass);
+        log.info("input password properly: "+inputEmailByName);
         submitLogin.click();
+        log.info("submitLogin Click properly: "+submitLogin);
 
 
     }
     public void invalidPasswordErrorValidation(){
         Assert.assertEquals(authError,authError);
+        log.info("Auth error Verification: "+ authError);
         Assert.assertTrue(authError.isDisplayed());
     }
 
