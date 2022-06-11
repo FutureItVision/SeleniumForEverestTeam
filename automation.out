@@ -80,3 +80,125 @@
 2022-05-07 08:56:16 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (683580e89bc6183a99118213de8af733)] -> xpath: //li[contains(text(),'Authentication failed.')]]
 2022-05-07 08:56:17 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
 2022-05-07 08:56:17 INFO  ScriptBase:40 - Create Account work properly: [[ChromeDriver: chrome on MAC (683580e89bc6183a99118213de8af733)] -> id: email_create]
+2022-05-14 08:03:58 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:04:11 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> xpath: //a[@class='login']]
+2022-05-14 08:04:11 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> id: email]
+2022-05-14 08:04:11 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> id: email]
+2022-05-14 08:04:16 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> name: SubmitLogin]
+2022-05-14 08:04:16 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:04:17 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:04:17 INFO  ScriptBase:40 - Create Account work properly: [[ChromeDriver: chrome on MAC (bcd7863ca3a1beb617161883de9597f3)] -> id: email_create]
+2022-05-14 08:08:56 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:08:56 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:09:05 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (fc845933ba592ca162ae28172e73946c)] -> xpath: //a[@class='login']]
+2022-05-14 08:09:05 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (fc845933ba592ca162ae28172e73946c)] -> id: email]
+2022-05-14 08:09:05 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (fc845933ba592ca162ae28172e73946c)] -> id: email]
+2022-05-14 08:09:09 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (fc845933ba592ca162ae28172e73946c)] -> name: SubmitLogin]
+2022-05-14 08:09:09 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (fc845933ba592ca162ae28172e73946c)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:09:35 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:09:35 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:09:40 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (1801b52fab04564d3672970864473d03)] -> xpath: //a[@class='login']]
+2022-05-14 08:09:40 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (1801b52fab04564d3672970864473d03)] -> id: email]
+2022-05-14 08:09:40 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (1801b52fab04564d3672970864473d03)] -> id: email]
+2022-05-14 08:09:42 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (1801b52fab04564d3672970864473d03)] -> name: SubmitLogin]
+2022-05-14 08:09:42 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (1801b52fab04564d3672970864473d03)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:10:25 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:10:25 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:10:27 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (8bf5b7d185843c6fde56ee1ae1ee2739)] -> xpath: //a[@class='login']]
+2022-05-14 08:10:27 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (8bf5b7d185843c6fde56ee1ae1ee2739)] -> id: email]
+2022-05-14 08:10:28 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (8bf5b7d185843c6fde56ee1ae1ee2739)] -> id: email]
+2022-05-14 08:10:29 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (8bf5b7d185843c6fde56ee1ae1ee2739)] -> name: SubmitLogin]
+2022-05-14 08:10:29 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (8bf5b7d185843c6fde56ee1ae1ee2739)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:11:27 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:11:27 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:11:29 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (010daeb7eb625fc1a564f8c7be7f9881)] -> xpath: //a[@class='login']]
+2022-05-14 08:11:29 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (010daeb7eb625fc1a564f8c7be7f9881)] -> id: email]
+2022-05-14 08:11:30 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (010daeb7eb625fc1a564f8c7be7f9881)] -> id: email]
+2022-05-14 08:11:30 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (010daeb7eb625fc1a564f8c7be7f9881)] -> name: SubmitLogin]
+2022-05-14 08:11:31 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (010daeb7eb625fc1a564f8c7be7f9881)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:11:44 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:11:44 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:11:46 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (c4409c9c3a2437c673d76bbc113d07fd)] -> xpath: //a[@class='login']]
+2022-05-14 08:11:47 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (c4409c9c3a2437c673d76bbc113d07fd)] -> id: email]
+2022-05-14 08:11:47 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (c4409c9c3a2437c673d76bbc113d07fd)] -> id: email]
+2022-05-14 08:11:47 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (c4409c9c3a2437c673d76bbc113d07fd)] -> name: SubmitLogin]
+2022-05-14 08:11:47 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (c4409c9c3a2437c673d76bbc113d07fd)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:14:20 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:14:20 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:14:22 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (f0cd71ef2b536afea9fddf95404e879b)] -> xpath: //a[@class='login']]
+2022-05-14 08:14:22 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (f0cd71ef2b536afea9fddf95404e879b)] -> id: email]
+2022-05-14 08:14:22 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (f0cd71ef2b536afea9fddf95404e879b)] -> id: email]
+2022-05-14 08:14:22 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (f0cd71ef2b536afea9fddf95404e879b)] -> name: SubmitLogin]
+2022-05-14 08:14:23 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (f0cd71ef2b536afea9fddf95404e879b)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:15:40 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:15:40 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:15:43 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (1824bfee3acd00c1bf4a328acceab348)] -> xpath: //a[@class='login']]
+2022-05-14 08:15:44 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (1824bfee3acd00c1bf4a328acceab348)] -> id: email]
+2022-05-14 08:15:44 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (1824bfee3acd00c1bf4a328acceab348)] -> id: email]
+2022-05-14 08:15:45 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (1824bfee3acd00c1bf4a328acceab348)] -> name: SubmitLogin]
+2022-05-14 08:15:45 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (1824bfee3acd00c1bf4a328acceab348)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:16:39 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:16:39 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:16:42 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (41cfcf0e1981dd980b0b7fac95f0c56f)] -> xpath: //a[@class='login']]
+2022-05-14 08:16:42 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (41cfcf0e1981dd980b0b7fac95f0c56f)] -> id: email]
+2022-05-14 08:16:42 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (41cfcf0e1981dd980b0b7fac95f0c56f)] -> id: email]
+2022-05-14 08:16:43 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (41cfcf0e1981dd980b0b7fac95f0c56f)] -> name: SubmitLogin]
+2022-05-14 08:16:43 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (41cfcf0e1981dd980b0b7fac95f0c56f)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:19:21 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:19:21 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:19:23 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (e366b9fb9d97fd068bd9c4adfd1afb56)] -> xpath: //a[@class='login']]
+2022-05-14 08:19:23 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (e366b9fb9d97fd068bd9c4adfd1afb56)] -> id: email]
+2022-05-14 08:19:23 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (e366b9fb9d97fd068bd9c4adfd1afb56)] -> id: email]
+2022-05-14 08:19:24 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (e366b9fb9d97fd068bd9c4adfd1afb56)] -> name: SubmitLogin]
+2022-05-14 08:19:24 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (e366b9fb9d97fd068bd9c4adfd1afb56)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:20:15 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:20:15 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:20:17 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (df384ce2068cd5e90a28831e04bf0374)] -> xpath: //a[@class='login']]
+2022-05-14 08:20:17 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (df384ce2068cd5e90a28831e04bf0374)] -> id: email]
+2022-05-14 08:20:17 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (df384ce2068cd5e90a28831e04bf0374)] -> id: email]
+2022-05-14 08:20:18 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (df384ce2068cd5e90a28831e04bf0374)] -> name: SubmitLogin]
+2022-05-14 08:20:18 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (df384ce2068cd5e90a28831e04bf0374)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:21:15 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:21:16 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> xpath: //a[@class='login']]
+2022-05-14 08:21:17 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> id: email]
+2022-05-14 08:21:17 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> id: email]
+2022-05-14 08:21:18 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> name: SubmitLogin]
+2022-05-14 08:21:18 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:21:19 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:21:19 INFO  ScriptBase:40 - Create Account work properly: [[ChromeDriver: chrome on MAC (06053456c5d4a2bed94d39d3ee44eb63)] -> id: email_create]
+2022-05-14 08:32:20 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:32:21 INFO  ScriptBase:48 - signInButton Click properly: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> xpath: //a[@class='login']]
+2022-05-14 08:32:21 INFO  ScriptBase:50 - inputEmail properly: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> id: email]
+2022-05-14 08:32:21 INFO  ScriptBase:52 - input password properly: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> id: email]
+2022-05-14 08:32:22 INFO  ScriptBase:54 - submitLogin Click properly: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> name: SubmitLogin]
+2022-05-14 08:32:22 INFO  ScriptBase:60 - Auth error Verification: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:32:22 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:32:23 INFO  ScriptBase:40 - Create Account work properly: [[FirefoxDriver: firefox on MAC (6ebf488c-becd-459c-afee-63c88ec32924)] -> id: email_create]
+2022-05-14 08:32:29 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:32:31 INFO  ScriptBase:48 - signInButton Click properly: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> xpath: //a[@class='login']]
+2022-05-14 08:32:31 INFO  ScriptBase:50 - inputEmail properly: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> id: email]
+2022-05-14 08:32:31 INFO  ScriptBase:52 - input password properly: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> id: email]
+2022-05-14 08:32:32 INFO  ScriptBase:54 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> name: SubmitLogin]
+2022-05-14 08:32:32 INFO  ScriptBase:60 - Auth error Verification: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:32:33 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:32:33 INFO  ScriptBase:40 - Create Account work properly: [[ChromeDriver: chrome on MAC (1a13bc64a6fcbd42478830d803c7f794)] -> id: email_create]
+2022-05-14 08:32:41 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-05-14 08:32:43 INFO  ScriptBase:48 - signInButton Click properly: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> xpath: //a[@class='login']]
+2022-05-14 08:32:43 INFO  ScriptBase:50 - inputEmail properly: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> id: email]
+2022-05-14 08:32:43 INFO  ScriptBase:52 - input password properly: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> id: email]
+2022-05-14 08:32:44 INFO  ScriptBase:54 - submitLogin Click properly: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> name: SubmitLogin]
+2022-05-14 08:32:44 INFO  ScriptBase:60 - Auth error Verification: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-05-14 08:32:44 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-05-14 08:32:45 INFO  ScriptBase:40 - Create Account work properly: [[OperaDriver: opera on MAC (779c1e432cd852c6ce34e53c41f70740)] -> id: email_create]
+2022-06-11 09:21:11 INFO  ScriptBase:21 - ###############Test Start: verifyLoginTestWithInvalidPassword##############
+2022-06-11 09:21:11 INFO  ScriptBase:21 - ###############Test Start: verifyCreateEmailEccepted##############
+2022-06-11 09:23:42 INFO  ScriptBase:49 - signInButton Click properly: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2022-06-11 09:25:26 INFO  ScriptBase:49 - signInButton Click properly: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> xpath: //a[@class='login']]
+2022-06-11 09:25:26 INFO  ScriptBase:51 - inputEmail properly: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> id: email]
+2022-06-11 09:25:26 INFO  ScriptBase:53 - input password properly: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> id: email]
+2022-06-11 09:25:30 INFO  ScriptBase:55 - submitLogin Click properly: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> name: SubmitLogin]
+2022-06-11 09:25:30 INFO  ScriptBase:61 - Auth error Verification: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2022-06-11 09:25:30 INFO  ScriptBase:41 - Create Account work properly: [[ChromeDriver: chrome on MAC (479cc2f38cd4cb811939b1b2e48eefca)] -> id: email_create]
+2022-06-11 09:27:14 INFO  ScriptBase:49 - signInButton Click properly: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2022-06-11 09:35:52 INFO  ScriptBase:49 - signInButton Click properly: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2022-06-11 09:40:00 INFO  ScriptBase:49 - signInButton Click properly: Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'

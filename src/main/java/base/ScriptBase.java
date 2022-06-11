@@ -8,12 +8,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class ScriptBase {
    public static WebDriver driver;
+   public WebDriver getDriver(){
+       return driver;
+   }
    public static final Logger log=Logger.getLogger(ScriptBase.class.getName());
     @Parameters("browser")
     @BeforeTest
@@ -24,6 +28,7 @@ public class ScriptBase {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.get("http://automationpractice.com/index.php");
+            System.out.println(Thread.currentThread().getName());
         }else if(browser.equalsIgnoreCase("firefox")){
             WebDriverManager.firefoxdriver().setup();
             driver=new FirefoxDriver();
@@ -41,6 +46,11 @@ public class ScriptBase {
             FirefoxOptions options=new FirefoxOptions();
             options.addArguments("--headless");
             driver=new FirefoxDriver(options);
+            driver.get("http://automationpractice.com/index.php");
+
+        }else if(browser.equalsIgnoreCase("opera")){
+            WebDriverManager.operadriver().setup();
+            driver = new OperaDriver();
             driver.get("http://automationpractice.com/index.php");
 
         }

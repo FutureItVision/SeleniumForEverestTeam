@@ -29,6 +29,7 @@ public class Account {
     WebElement signOut;
 
     public static final Logger log=Logger.getLogger(ScriptBase.class.getName());
+
     public Account(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
